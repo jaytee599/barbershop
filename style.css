@@ -1,0 +1,68 @@
+:root {
+    --primary: #86b817;
+    --secondary: #E9C664;
+    --light: #f5f5f5;
+    --dark: #14141f;
+}
+
+.sec {
+    border: 1px solid #E9C664;
+}
+
+.text-sec {
+    color: var(--secondary);
+    font-size: 40px;
+}
+
+.toggle-icon {
+    color: var(--secondary);
+    font-size: 20px;
+}
+
+.text-bright {
+    color: var(--light);
+}
+.text-brighter {
+    color: var(--secondary);
+}
+
+.bg-brighter {
+    background-color: var(--secondary);
+}
+
+.hero-header {
+    background: linear-gradient(rgba(20,20,31,0.7), rgba(20,20,31,0.7)), url(./images/back.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-service {
+    background: linear-gradient(rgba(20,20,31,0.7), rgba(20,20,31,0.7)), url(./images/Services.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line {
+    height: 250px;
+    width: 2px;
+    background-color: #E9C664;
+}
+
+.horizontal {
+    height: 2px;
+    width: 200px;
+    background-color: #E9C664;
+}
+
+.service-header {
+    background: linear-gradient(rgba(20,20,31,0.7), rgba(20,20,31,0.7)), url(./images/blog.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image {
+    height: 350px;
+}
