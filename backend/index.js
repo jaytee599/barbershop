@@ -14,7 +14,7 @@ const contact = require('./src/routes/contact');
 database();  
 server.use(cors({
     origin: [
-        'https://barbershop-six-red.vercel.app',
+        'https://barbershop-client-nu.vercel.app/',
         'http://localhost:5173',
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
